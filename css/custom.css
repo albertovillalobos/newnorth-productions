@@ -45,6 +45,7 @@ section {
     border-color: rgba(255,255,255,0.5);
     background-attachment: fixed;
     background-size: cover;
+    background-color: rgba(0,0,0,0.8);
 }
 
 
@@ -62,6 +63,10 @@ section#story {
 
 section#portfolio {
     background-image: url("../images/fjord.jpg");
+}
+
+section#family {
+    background-image: url("../images/forest.jpg");
 }
 
 
