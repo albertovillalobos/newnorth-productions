@@ -1,0 +1,58 @@
+/* ==========================================================================
+    Imports
+========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+/* ==========================================================================
+   Font
+========================================================================== */
+html, body, p, h1, h2, h3, h4 {
+    font-family: 'Helvetica Neue', 'Open Sans', sans-serif;
+    font-weight: 250;
+    /*font-size: 18px;*/
+    /*font-weight: 300;*/
+}
+
+
+
+
+/* 
+   Bigger stuff
+========================================================================== */
+
+body, html {
+    color: black;
+    height: 100%;
+    font-size: 18px;
+}
+/* Space out content a bit */
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+section {
+    min-height: 100%;   
+    background-color: white;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    border-color: rgba(255,255,255,0.5);
+}
+
+
+/* 
+    section backgrounds
+========================================================================== */
+
+section#home {
+    background-image: url("../images/fjord.jpg");
+    background-size: cover;
+}
+
+section#story {
+    background-image: url("../images/skane.jpg");
+    background-size: cover;
+}
