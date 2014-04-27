@@ -26,6 +26,7 @@ body, html {
     color: black;
     height: 100%;
     font-size: 18px;
+    min-height: 100%;
 }
 /* Space out content a bit */
 body {
@@ -40,6 +41,7 @@ section {
     border-right: none;
     border-width: 1px;
     border-color: rgba(255,255,255,0.5);
+    background-attachment: fixed;
 }
 
 
@@ -56,3 +58,25 @@ section#story {
     background-image: url("../images/skane.jpg");
     background-size: cover;
 }
+
+/* 
+    Vertical alignments   
+========================================================================== */
+
+.vertical-container {
+    height: 100%;
+    width: 100%;
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: middle;
+    /*min-height: 100%;*/
+}
+
+.vertical-content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
