@@ -44,6 +44,7 @@ section {
     border-width: 1px;
     border-color: rgba(255,255,255,0.5);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 
@@ -53,12 +54,14 @@ section {
 
 section#home {
     background-image: url("../images/fjord.jpg");
-    background-size: cover;
 }
 
 section#story {
     background-image: url("../images/skane.jpg");
-    background-size: cover;
+}
+
+section#portfolio {
+    background-image: url("../images/fjord.jpg");
 }
 
 
