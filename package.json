@@ -1,0 +1,26 @@
+{
+  "name": "newnorth-website",
+  "version": "0.0.1",
+  "description": "New North Productions website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/albertovillalobos/newnorth-productions.git"
+  },
+  "author": "Alberto Villalobos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertovillalobos/newnorth-productions/issues"
+  },
+  "homepage": "https://github.com/albertovillalobos/newnorth-productions",
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-connect": "^0.7.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "time-grunt": "^0.3.1",
+    "load-grunt-tasks": "^0.4.0"
+  }  
+}
