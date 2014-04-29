@@ -54,22 +54,32 @@ section {
 ========================================================================== */
 
 section#home {
-    background-image: url("../images/fjord.jpg");
+    background-image: url("../images/losangeles.jpg");
 }
 
 section#story {
-    background-image: url("../images/skane.jpg");
-}
-
-section#portfolio {
-    background-image: url("../images/fjord.jpg");
+    background-image: url("../images/stockholm.jpg");
 }
 
 section#family {
     background-image: url("../images/forest.jpg");
 }
 
+section#portfolio {
+    background-image: url("../images/losangeles2.jpg");
+}
 
+section#join-the-team {
+    background-image: url("../images/stockholm2.jpg");
+}
+
+section#press {
+    background-image: url("../images/trees.jpg");
+}
+
+section#contact {
+    background-image: url("../images/santamonicapier.jpg");
+}
 /* 
     Vertical alignments   
 ========================================================================== */
