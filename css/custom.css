@@ -55,6 +55,7 @@ section {
 
 section#home {
     background-image: url("../images/losangeles.jpg");
+    li.active {font-weight:bold;}
 }
 
 section#story {
