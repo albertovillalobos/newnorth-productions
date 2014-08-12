@@ -2,6 +2,8 @@
 (function($) {
     'use strict';
 
+    smoothScroll.init();
+
     // $(document).scroll(function(event) {
     //     var newHeight = ($(window).scrollTop() / $(document).height()) * 1200 * (-1) + 500;
     //     console.log(newHeight);
